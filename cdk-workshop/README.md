@@ -10,7 +10,7 @@ The final example contains three lambdas, two endpoints (API GW) and one dynamod
 ![Table viewer](scrennshot.png)
 
 
-## installed libraries
+## Installed libraries
 
 ```bash
 npm install @aws-cdk/aws-lambda
@@ -23,3 +23,9 @@ npm install cdk-dynamo-table-viewer
 ```bash
  npm run build & npx jest
 ````
+
+## Referces
+- https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-dynamodb.Table.html
+- https://docs.aws.amazon.com/cdk/api/latest/docs/aws-lambda-readme.html
+- https://docs.aws.amazon.com/cdk/api/latest/docs/aws-apigateway-readme.html
+- https://www.npmjs.com/package/cdk-dynamo-table-viewer
