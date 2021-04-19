@@ -21,5 +21,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 npm install @aws-cdk/aws-lambda
 npm install @aws-cdk/aws-apigateway
 npm install @aws-cdk/aws-dynamodb
+npm install cdk-dynamo-table-viewer
 
 ```

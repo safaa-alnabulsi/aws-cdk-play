@@ -29,6 +29,7 @@ export class HitCounter extends cdk.Construct {
             }
         });
 
+
         // grant the lambda role read/write permissions to our table
         // allow hitcounter lambda writes to the ddb table (error  not authorized to perform: dynamodb:UpdateItem on resource)
         table.grantReadWriteData(this.handler);
