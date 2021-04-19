@@ -1,8 +1,4 @@
-# Welcome to your CDK TypeScript project!
-
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+# Playing with CDK!
 
 ## Useful commands
 
@@ -19,11 +15,10 @@ Bootstrapping is needed per account and region to be able to deploy cdk apps.
 This should be done only once and before starting with cdk apps
 
 ```
- cdk bootstrap aws://accountId/eu-central-1
+ cdk bootstrap aws://accountId/eu-west-1
 ```
 
 ## Setup New project
-
 
 - Create new project
 
@@ -37,6 +32,9 @@ npm install @aws-cdk/aws-s3 @aws-cdk/aws-lambda
 
 ```
 
+## Examples
+
+- [cdk-workshop](cdk-workshop/README.md)
 
 ## Referces:
 - https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-typescript.html
