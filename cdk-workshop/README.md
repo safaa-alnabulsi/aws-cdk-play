@@ -34,3 +34,8 @@ The final example contains three lambdas, two endpoints (API GW) and one dynamod
 - TableView: a lmabda created with constructor library which reads from dynamodb table and has an endpoint which renders a UI of number of hits ( values of ddb table). Check the screenshot below.
   
 ![Table viewer](scrennshot.png)
+
+## Test
+```bash
+ npm run build & npx jest
+````
