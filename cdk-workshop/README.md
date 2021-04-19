@@ -20,5 +20,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 ```bash
 npm install @aws-cdk/aws-lambda
 npm install @aws-cdk/aws-apigateway
+npm install @aws-cdk/aws-dynamodb
 
 ```

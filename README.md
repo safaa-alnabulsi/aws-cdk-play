@@ -13,13 +13,22 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
+## Bootstrapping with the AWS CDK Toolkit
+
+Bootstrapping is needed per account and region to be able to deploy cdk apps.
+This should be done only once and before starting with cdk apps
+
+```
+ cdk bootstrap aws://accountId/eu-central-1
+```
 
 ## Setup New project
+
 
 - Create new project
 
 ```
- cdk init app --language typescript
+ cdk init sample-app --language typescript
 ```
 
 - install libs to work on
@@ -31,3 +40,4 @@ npm install @aws-cdk/aws-s3 @aws-cdk/aws-lambda
 
 ## Referces:
 - https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-typescript.html
+- https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html
